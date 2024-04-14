@@ -8,7 +8,10 @@ void main() {
         appBar: AppBar(
           title: Text(
             "Dashboard".toUpperCase(),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
+          backgroundColor: Colors.red.shade900,
+          centerTitle: true,
         ),
         body: Center(
           child: Text.rich(
