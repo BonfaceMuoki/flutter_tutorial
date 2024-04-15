@@ -17,9 +17,10 @@ class Dashboard extends StatelessWidget {
       backgroundColor: Colors.lightGreen,
       body: Center(
         child: IconButton(
+          iconSize: 100,
+          color: Colors.lightGreenAccent,
           onPressed: () {},
-          icon: Icon(Icons.alt_route_outlined,
-              size: 100, color: Colors.lightGreenAccent),
+          icon: Icon(Icons.alt_route_outlined),
         ),
       ),
     );
