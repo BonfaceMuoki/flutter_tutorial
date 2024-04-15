@@ -15,9 +15,13 @@ class Dashboard extends StatelessWidget {
         centerTitle: true,
       ),
       backgroundColor: Colors.lightGreen,
-      body: const Center(
-          child: Icon(Icons.alt_route_outlined,
-              size: 100, color: Colors.lightGreenAccent)),
+      body: Center(
+        child: IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.alt_route_outlined,
+              size: 100, color: Colors.lightGreenAccent),
+        ),
+      ),
     );
   }
 }
