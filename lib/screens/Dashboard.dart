@@ -6,20 +6,18 @@ class Dashboard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(
-            "Dash".toUpperCase(),
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
-          ),
-          backgroundColor: Colors.red.shade900,
-          centerTitle: true,
+      appBar: AppBar(
+        title: Text(
+          "Dash".toUpperCase(),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
-        body: Center(
-          child: Image.asset(
-            "images/bonnie.jpeg",
-            height: 300.0,
-            fit: BoxFit.contain,
-          ),
-        ));
+        backgroundColor: Colors.red.shade900,
+        centerTitle: true,
+      ),
+      backgroundColor: Colors.lightGreen,
+      body: const Center(
+          child: Icon(Icons.alt_route_outlined,
+              size: 100, color: Colors.lightGreenAccent)),
+    );
   }
 }
