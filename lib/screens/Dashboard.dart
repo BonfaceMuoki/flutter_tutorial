@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:font_awesome_flutter/font_awesome_flutter.dart";
 
 class Dashboard extends StatelessWidget {
   const Dashboard({super.key});
@@ -20,7 +21,9 @@ class Dashboard extends StatelessWidget {
           iconSize: 100,
           color: Colors.lightGreenAccent,
           onPressed: () {},
-          icon: Icon(Icons.alt_route_outlined),
+          icon: Icon(FontAwesomeIcons.addressBook),
+          splashColor: Colors.white,
+          highlightColor: Colors.red,
         ),
       ),
     );
